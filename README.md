@@ -33,6 +33,8 @@ The following packages are available on [nuget.org](https://nuget.org) that prov
     var configuration = new SetupConfiguration();
     ```
 
+>`The Microsoft.VisualStudio.Setup.Configuration.Interop` package cannot be added as a `PackageReference`, it must be declared in a `packages.config` file for the `SetupConfiguration` class to be correctly exposed.
+
 Updates
 -------
 
